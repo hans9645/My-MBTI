@@ -42,6 +42,7 @@
     75% {
         transform: translateY(-60%);
     }
+
     100% {
         transform: translateY(-80%);
     }
@@ -113,8 +114,81 @@ body {
     font-size: 25px;
     line-height: 3em;
     height: 3em;
+    overflow: hidden;
 }
 
-.type_list{
-    animation: rotate 7s infinite;
+.type_list {
+    animation: rotate 6s infinite;
+}
+
+.button {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.button button {
+    width: 300px;
+    height: 50px;
+    padding: 5px;
+    border-style: none;
+    border-radius: 10px;
+    font-family: NEXON Lv1 Gothic OTF;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: #fff;
+    color: #7f47dd;
+    cursor: pointer;
+    margin-bottom: 20px;
+
+}
+
+.button button:hover {
+    text-decoration: underline;
+    background-color: peru;
+    transition: all 1s;
+}
+
+.result_data {
+    display: flex;
+    justify-content: center;
+
+}
+
+.result_data .data_wrap {
+    width: 270px;
+    padding: 15px;
+    border-top: 3px solid #000;
+    border-bottom: 3px solid #000;
+    line-height: 1.5;
+    margin-bottom:  50px;
+
+}
+
+.result_data h3{
+    text-align:center ;
+    font-size:20px;
+    font-weight: bold;
+    padding: 20px 0 30px;
+
+
+}
+
+.result_data li{
+    font-size: 15px;
+    padding-bottom:20px;
+}
+
+.weniv {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+.weniv a{
+    width: 100px;
+
+}
+.weniv img{
+    width: 100%;
+    height: auto;
 }
